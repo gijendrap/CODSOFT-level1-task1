@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/CODSOFT-level1-task1/static/css/main.7a175b97.css",
-    "main.js": "/CODSOFT-level1-task1/static/js/main.f6805c9c.js",
+    "main.js": "/CODSOFT-level1-task1/static/js/main.514a872b.js",
     "static/js/787.35dd0f9c.chunk.js": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js",
+    "static/media/apl.png": "/CODSOFT-level1-task1/static/media/apl.d3941ba40e1d9ff55629.png",
     "static/media/postman.png": "/CODSOFT-level1-task1/static/media/postman.e087d6030b1aa83511b8.png",
     "static/media/figma.png": "/CODSOFT-level1-task1/static/media/figma.de9ddc6c2c43c542a17e.png",
     "static/media/vscode.png": "/CODSOFT-level1-task1/static/media/vscode.9bc6e588b5f2b867a8a4.png",
@@ -31,11 +32,11 @@
     "static/media/next.webp": "/CODSOFT-level1-task1/static/media/next.864ec59e9c450019ca8a.webp",
     "index.html": "/CODSOFT-level1-task1/index.html",
     "main.7a175b97.css.map": "/CODSOFT-level1-task1/static/css/main.7a175b97.css.map",
-    "main.f6805c9c.js.map": "/CODSOFT-level1-task1/static/js/main.f6805c9c.js.map",
+    "main.514a872b.js.map": "/CODSOFT-level1-task1/static/js/main.514a872b.js.map",
     "787.35dd0f9c.chunk.js.map": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a175b97.css",
-    "static/js/main.f6805c9c.js"
+    "static/js/main.514a872b.js"
   ]
 }

@@ -55,7 +55,7 @@ const Contact = () => {
           <p>New Opportunities</p>
           <p>Database</p>
           <p>Springboot</p>
-          <p>Fight</p>
+          <p>Flight</p>
           <p>Bikes</p>
           <p>Space</p>
           

@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/CODSOFT-level1-task1/static/css/main.1d3c01d0.css",
+    "main.js": "/CODSOFT-level1-task1/static/js/main.069e1ce6.js",
+    "static/js/787.35dd0f9c.chunk.js": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js",
+    "static/media/postman.png": "/CODSOFT-level1-task1/static/media/postman.e087d6030b1aa83511b8.png",
+    "static/media/figma.png": "/CODSOFT-level1-task1/static/media/figma.de9ddc6c2c43c542a17e.png",
+    "static/media/vscode.png": "/CODSOFT-level1-task1/static/media/vscode.9bc6e588b5f2b867a8a4.png",
+    "static/media/ruby.png": "/CODSOFT-level1-task1/static/media/ruby.70e6574496d4c8716fa1.png",
+    "static/media/webpack.png": "/CODSOFT-level1-task1/static/media/webpack.09a1a1112c577c279435.png",
+    "static/media/npm.png": "/CODSOFT-level1-task1/static/media/npm.0340e1c9e345c6c6648c.png",
+    "static/media/flutter.png": "/CODSOFT-level1-task1/static/media/flutter.294a953425109a8f1aad.png",
+    "static/media/slack.png": "/CODSOFT-level1-task1/static/media/slack.ea135aee6a14fbf60e8c.png",
+    "static/media/html.png": "/CODSOFT-level1-task1/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/rails.png": "/CODSOFT-level1-task1/static/media/rails.e9adaa44c66735d553fb.png",
+    "static/media/skype.png": "/CODSOFT-level1-task1/static/media/skype.6d75d6c3f944b337082d.png",
+    "static/media/zoom.webp": "/CODSOFT-level1-task1/static/media/zoom.216e9d71bb558929175d.webp",
+    "static/media/meet.png": "/CODSOFT-level1-task1/static/media/meet.4c4496d98dcc42fe6b04.png",
+    "static/media/redux.png": "/CODSOFT-level1-task1/static/media/redux.5de70b7bc0d2556a0958.png",
+    "static/media/postgres.png": "/CODSOFT-level1-task1/static/media/postgres.66ca39a1fb37fc304bfa.png",
+    "static/media/canva.png": "/CODSOFT-level1-task1/static/media/canva.f616fed1beccb9ec852f.png",
+    "static/media/react.png": "/CODSOFT-level1-task1/static/media/react.428839d4924b447d4d50.png",
+    "static/media/bootstrap.png": "/CODSOFT-level1-task1/static/media/bootstrap.dc44a420bbc9f7668242.png",
+    "static/media/sass.png": "/CODSOFT-level1-task1/static/media/sass.eae2b96dc5f29556b225.png",
+    "static/media/wordpress.png": "/CODSOFT-level1-task1/static/media/wordpress.822e40a1d03ae9bcb5f7.png",
+    "static/media/jest.png": "/CODSOFT-level1-task1/static/media/jest.cf32f92dcdef7563bd41.png",
+    "static/media/css.png": "/CODSOFT-level1-task1/static/media/css.bd165c2b95efc6e13f9b.png",
+    "static/media/jquery.png": "/CODSOFT-level1-task1/static/media/jquery.fe01f98055d4cf7679cf.png",
+    "static/media/cdt.png": "/CODSOFT-level1-task1/static/media/cdt.63ea0b08428a40724430.png",
+    "static/media/javascript.png": "/CODSOFT-level1-task1/static/media/javascript.9d36595219f4b8081d71.png",
+    "static/media/next.webp": "/CODSOFT-level1-task1/static/media/next.864ec59e9c450019ca8a.webp",
+    "index.html": "/CODSOFT-level1-task1/index.html",
+    "main.1d3c01d0.css.map": "/CODSOFT-level1-task1/static/css/main.1d3c01d0.css.map",
+    "main.069e1ce6.js.map": "/CODSOFT-level1-task1/static/js/main.069e1ce6.js.map",
+    "787.35dd0f9c.chunk.js.map": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1d3c01d0.css",
+    "static/js/main.069e1ce6.js"
+  ]
+}

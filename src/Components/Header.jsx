@@ -19,11 +19,11 @@ const Header = () => {
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav className="mr-auto">
-          <Nav.Link style={{color:'black'}} href="#About">About</Nav.Link>
-          <Nav.Link style={{color:'black'}} href="#projects">Projects</Nav.Link>
-          <Nav.Link style={{color:'black'}} href="#skills-section">Skills</Nav.Link>
-          <Nav.Link style={{color:'black'}} href="#contact">Contact</Nav.Link>
-          <Nav.Link style={{color:'black'}} href="https://drive.google.com/file/d/1-_BJVwsOI7vB59qmADRcY1YtELxCXoP5/view?usp=sharing" target="_blank" rel="noreferrer">Resume</Nav.Link>
+          <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#About">About</Nav.Link>
+          <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#projects">Projects</Nav.Link>
+          <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#skills-section">Skills</Nav.Link>
+          <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#contact">Contact</Nav.Link>
+          <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="https://drive.google.com/file/d/1-_BJVwsOI7vB59qmADRcY1YtELxCXoP5/view?usp=sharing" target="_blank" rel="noreferrer">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

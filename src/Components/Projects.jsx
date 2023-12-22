@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import '../Css/Projects.css';
+import apl from '../assets/apl.png'
 
 const YourComponent = () => {
   useEffect(() => {
@@ -30,7 +31,7 @@ const YourComponent = () => {
             <button>Read More</button>
           </div>
         </li>
-        <li className='item' style={{ backgroundImage: "url('https://images5.alphacoders.com/131/1316260.jpg')" }}>
+        <li className='item' style={{ backgroundImage:{apl} }}>
           <div className='content'>
             <h2 className='title'>"Portfolio"</h2>
             <p className='description'> In my portfolio, witness a showcase of my coding prowess and web development expertise. Each project is a testament to my commitment to crafting seamless, user-centric experiences with a perfect blend of functionality and aesthetics.  </p>

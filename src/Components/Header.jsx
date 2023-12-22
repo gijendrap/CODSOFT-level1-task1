@@ -23,7 +23,7 @@ const Header = () => {
           <Nav.Link style={{color:'black'}} href="#projects">Projects</Nav.Link>
           <Nav.Link style={{color:'black'}} href="#skills-section">Skills</Nav.Link>
           <Nav.Link style={{color:'black'}} href="#contact">Contact</Nav.Link>
-          <Nav.Link style={{color:'black'}} href="#resume">Resume</Nav.Link>
+          <Nav.Link style={{color:'black'}} href="https://drive.google.com/file/d/1-_BJVwsOI7vB59qmADRcY1YtELxCXoP5/view?usp=sharing" target="_blank" rel="noreferrer">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

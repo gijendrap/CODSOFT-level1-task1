@@ -1,0 +1,16 @@
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card-side {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

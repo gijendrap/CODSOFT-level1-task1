@@ -1,0 +1,45 @@
+.custom-navbar {
+    height: 60px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.custom-navbar .navbar-brand {
+    margin-left: 40px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: #000000;
+}
+
+.custom-navbar .navbar-toggler.collapsed .navbar-toggler-icon {
+    background-color: #000000;
+}
+
+.custom-navbar .navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.custom-navbar .nav-link {
+    color: #000000;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.custom-navbar .nav-link:visited,
+.custom-navbar .nav-link:active {
+    color: #000000;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #000000;
+    text-decoration: none;
+}

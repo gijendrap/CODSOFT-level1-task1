@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+$x-light-gray: #f1f2f3;
+$light-gray: #a7aab0;
+$med-gray: #636568;
+$dark-gray: #2f3032;
+$link-color: #66a5e9;
+$link-hover-color: #4785C7;
+
+a {
+  text-decoration: none;
+}
+
+article {
+  background: #fff;
+  border-radius: 2px;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.075);
+}
+.article-image {
+  background: url(https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2019/09/Capture_HAckathon_wordpress.jpg);
+  background-position: center;
+  background-size: contain; /* Set this property to contain */
+  border-radius: 2px 2px 0 0;
+  height: 220px;
+  max-width: 100%;
+}
+
+.datestamp {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 2px;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  font-size: .68em;
+   position: absolute;
+  top: 197px;
+  right: 0;
+  border-radius: 2px 0 0 0;
+}
+.article-body {
+  padding: 24px 30px 0;
+}
+.article-heading {
+  color: $dark-gray;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+.article-tags {
+  color: $light-gray;
+  font-size: .8125em;
+  margin-bottom: .8125em;
+}
+.article-footer {
+  border-top: 1px solid $x-light-gray;
+  margin-top: 25px;
+  padding: 1em 30px;
+}
+.article-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  & li {
+    display: inline-block;
+    margin: 0 0 2px 0;
+  }
+  & a {
+    color: #fff;
+    background: $link-color;
+    border-radius: 2px;
+    font-size: 0.6875rem;
+    padding: 3px 10px;
+    transition: background 0.3s ease;
+    &:hover {
+      background: $link-hover-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.chart {
+  -webkit-backface-visibility: hidden; /*Fix for blink bug*/
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 220px;
+  background: rgba(0,0,0,0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+    -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+  &:hover {
+    opacity: 1;
+    [class*=rating-bar] {
+      -webkit-animation: grow 0.5s ease forwards;
+      -moz-animation: grow 0.5s ease forwards;
+      -o-animation: grow 0.5s ease forwards;
+      animation: grow 0.5s ease forwards;
+    }
+  }
+}
+
+[class*=rating-bar] {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 10px;
+  height: 50px;
+  color: #fff;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 11px;
+  opacity: .8;
+  transition: opacity 0.3s ease;
+  &:after {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-weight: bold;
+  }
+  &:hover {
+    opacity: 1;
+  }
+}
+
+$bars:  "Project size" #6878ca 50%, 
+        "Contribution" #4cdad1 50%;
+
+@each $bar in $bars {
+  $index: index($bars, $bar);
+  .rating-bar-#{$index} {
+    background-color: nth($bar, 2);
+    &:before {
+      content: nth($bar, 1);
+    }
+  }
+}
+
+@-webkit-keyframes grow { 0% { width: 0px; } }
+@-moz-keyframes grow { 0% { width: 0px; } }
+@-o-keyframes grow { 0% { width: 0px; } }
+@keyframes grow { 0% { width: 0px; } }
+
+.rating-small { width: 25%;
+  &:after { content: " SMALL"; }
+}
+.rating-medium { width: 50%;
+  &:after { content: " MEDIUM"; }
+}
+.rating-large { width: 75%;
+  &:after { content: " LARGE"; }
+}
+.rating-xlarge { width: 100%;
+  &:after { content: " X-LARGE"; }
+}

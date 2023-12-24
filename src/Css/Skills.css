@@ -9,31 +9,23 @@
 
 .skills-container {
   display: flex;
-  justify-content:left;
-  align-items: flex-start;
-}
-
-.skills-description-container {
-  max-width: 300px; /* Adjust the width as needed */
-  padding: 20px;
-  border-radius: 7px;
-  margin-top: 180px;
-  background: #ffffff;
+  flex-direction: column; /* Change to column for responsiveness */
+  align-items: center; /* Center the content */
 }
 
 .gogo {
   position: relative;
-  max-width: 500px;
+  max-width: 100%; /* Adjusted max-width for responsiveness */
   width: 100%;
   background: #fff;
-  margin-top: 150px;
+  margin-top: 20px; /* Adjusted margin for responsiveness */
   padding: 10px 20px;
   border-radius: 7px;
 }
 
 .gogo .gogo-box {
   width: 100%;
-  margin: 25px 0;
+  margin: 25px 0; /* Adjusted margin for responsiveness */
 }
 
 .gogo-box .gogo-title {
@@ -67,22 +59,6 @@
   opacity: 1;
 }
 
-.gogo-per.html {
-  animation-delay: 0.1s;
-}
-
-.gogo-per.css {
-  animation-delay: 0.2s;
-}
-
-.gogo-per.javascript {
-  animation-delay: 0.3s;
-}
-
-.gogo-per.nodejs {
-  animation-delay: 0.4s;
-}
-
 .gogo-per .gogo-tooltip {
   position: absolute;
   right: -14px;
@@ -106,4 +82,14 @@
   z-index: -1;
   background-color: #000000;
   transform: translateX(-50%) rotate(45deg);
+}
+
+@media screen and (min-width: 769px) {
+  .gogo {
+    max-width: 500px; /* Adjust the max-width for normal tabs */
+  }
+
+  .gogo-box .gogo-title {
+    font-size: 12px;
+  }
 }

@@ -25,9 +25,6 @@ const Skills = () => {
   
 const styles = {
   title: {
-    marginLeft:'10rem',
-    fontSize: '2.5rem',
-    fontWeight: 'bold',
     color: '#333',
     textAlign:'center',
     marginTop:'5rem',
@@ -51,7 +48,7 @@ const styles = {
     <div id="skills-section" className="skills-container">
    
      
-      <h1 className="skills-title" style={styles.title}>
+      <h1 style={styles.title}>
       My Skills
     </h1>
     

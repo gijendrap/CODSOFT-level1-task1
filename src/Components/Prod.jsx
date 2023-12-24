@@ -5,6 +5,7 @@ import '../scss/Prod.scss';
 function Pro() {
   return (
     <div id='projects'>
+    <h1 className='headprod'>Project</h1>
     <article class="article tile" >
     <div class="article-image"></div>
     <section class="article-body">

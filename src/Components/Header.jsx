@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import '../Css/Header.css'; 
 import logo from '../assets/gijendra.png';
 
 const Header = () => {
+  const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
+
+  const handleToggle = () => {
+    setIsNavbarExpanded(!isNavbarExpanded);
+  };
+
   return (
     <Navbar className="custom-navbar" variant="dark" expand="lg" fixed="top">
       <Navbar.Brand href="">
@@ -16,8 +24,20 @@ const Header = () => {
           className="d-inline-block align-top"
         />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="navbarScroll" />
-      <Navbar.Collapse id="navbarScroll">
+      <Navbar.Toggle 
+        aria-controls="navbarScroll" 
+        onClick={handleToggle} 
+      >
+        <FontAwesomeIcon 
+          icon={isNavbarExpanded ? faTimes : faBars} 
+          style={{ color: 'black' }} 
+        />
+      </Navbar.Toggle>
+      <Navbar.Collapse 
+        id="navbarScroll" 
+        onEnter={() => setIsNavbarExpanded(true)} 
+        onExit={() => setIsNavbarExpanded(false)}
+      >
         <Nav className="mr-auto">
           <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#About">About</Nav.Link>
           <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#projects">Projects</Nav.Link>

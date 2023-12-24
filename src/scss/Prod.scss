@@ -157,3 +157,20 @@ $bars:  "Project size" #6878ca 50%,
 .rating-xlarge { width: 100%;
   &:after { content: " X-LARGE"; }
 }
+
+.headprod {
+  text-align: center;
+  font-family: monospace;
+  margin-bottom: 4rem;
+  
+  @media (max-width: 600px) {
+    /* Adjust the styles for minimized tab here */
+    font-size: 16px; /* Adjust the font size */
+    text-align: center; /* Center the text horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container takes the full height of the viewport */
+    /* Add any other styles you want to change when the tab is minimized */
+  }
+}

@@ -43,7 +43,7 @@ const Header = () => {
           <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#projects">Projects</Nav.Link>
           <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#skills-section">Skills</Nav.Link>
           <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="#contact">Contact</Nav.Link>
-          <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="https://drive.google.com/file/d/1-_BJVwsOI7vB59qmADRcY1YtELxCXoP5/view?usp=sharing" target="_blank" rel="noreferrer">Resume</Nav.Link>
+          <Nav.Link style={{color:'black', fontFamily:'monospace'}} href="https://drive.google.com/file/d/1nUEAcGu9lj5Yi2kVm0V_Ne5d5hZYYbvY/view?usp=sharing" target="_blank" rel="noreferrer">Resume</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

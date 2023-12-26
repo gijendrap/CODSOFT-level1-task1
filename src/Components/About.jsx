@@ -38,7 +38,7 @@ const About = () => (
       My journey as a web developer is marked by a continuous quest for learning and staying abreast of the latest trends. Whether it's front-end development, back-end logic, or the seamless integration of databases, I approach each aspect with meticulous attention to detail. The digital canvas is my playground, and I relish the opportunity to transform ideas into interactive and visually appealing web applications.      </p>
       
       <button class="tor">
-    <a href="https://drive.google.com/file/d/1-_BJVwsOI7vB59qmADRcY1YtELxCXoP5/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
+    <a href="https://drive.google.com/file/d/1nUEAcGu9lj5Yi2kVm0V_Ne5d5hZYYbvY/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
 </button>
 
 

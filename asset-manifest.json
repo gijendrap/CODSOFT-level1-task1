@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CODSOFT-level1-task1/static/css/main.87b68438.css",
-    "main.js": "/CODSOFT-level1-task1/static/js/main.664ef1dd.js",
+    "main.js": "/CODSOFT-level1-task1/static/js/main.5216274b.js",
     "static/js/787.35dd0f9c.chunk.js": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js",
     "static/media/apl.png": "/CODSOFT-level1-task1/static/media/apl.2b458b044454bdaabd40.png",
     "static/media/Space.png": "/CODSOFT-level1-task1/static/media/Space.6936bca0af5087145ff2.png",
@@ -34,11 +34,11 @@
     "static/media/next.webp": "/CODSOFT-level1-task1/static/media/next.864ec59e9c450019ca8a.webp",
     "index.html": "/CODSOFT-level1-task1/index.html",
     "main.87b68438.css.map": "/CODSOFT-level1-task1/static/css/main.87b68438.css.map",
-    "main.664ef1dd.js.map": "/CODSOFT-level1-task1/static/js/main.664ef1dd.js.map",
+    "main.5216274b.js.map": "/CODSOFT-level1-task1/static/js/main.5216274b.js.map",
     "787.35dd0f9c.chunk.js.map": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87b68438.css",
-    "static/js/main.664ef1dd.js"
+    "static/js/main.5216274b.js"
   ]
 }

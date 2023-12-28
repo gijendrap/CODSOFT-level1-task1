@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/CODSOFT-level1-task1/static/css/main.db7c9093.css",
-    "main.js": "/CODSOFT-level1-task1/static/js/main.7aad85c4.js",
+    "main.css": "/CODSOFT-level1-task1/static/css/main.87b68438.css",
+    "main.js": "/CODSOFT-level1-task1/static/js/main.664ef1dd.js",
     "static/js/787.35dd0f9c.chunk.js": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js",
     "static/media/apl.png": "/CODSOFT-level1-task1/static/media/apl.2b458b044454bdaabd40.png",
+    "static/media/Space.png": "/CODSOFT-level1-task1/static/media/Space.6936bca0af5087145ff2.png",
+    "static/media/bike.png": "/CODSOFT-level1-task1/static/media/bike.1e7f3326ca53da95544f.png",
     "static/media/postman.png": "/CODSOFT-level1-task1/static/media/postman.e087d6030b1aa83511b8.png",
     "static/media/figma.png": "/CODSOFT-level1-task1/static/media/figma.de9ddc6c2c43c542a17e.png",
     "static/media/vscode.png": "/CODSOFT-level1-task1/static/media/vscode.9bc6e588b5f2b867a8a4.png",
@@ -31,12 +33,12 @@
     "static/media/javascript.png": "/CODSOFT-level1-task1/static/media/javascript.9d36595219f4b8081d71.png",
     "static/media/next.webp": "/CODSOFT-level1-task1/static/media/next.864ec59e9c450019ca8a.webp",
     "index.html": "/CODSOFT-level1-task1/index.html",
-    "main.db7c9093.css.map": "/CODSOFT-level1-task1/static/css/main.db7c9093.css.map",
-    "main.7aad85c4.js.map": "/CODSOFT-level1-task1/static/js/main.7aad85c4.js.map",
+    "main.87b68438.css.map": "/CODSOFT-level1-task1/static/css/main.87b68438.css.map",
+    "main.664ef1dd.js.map": "/CODSOFT-level1-task1/static/js/main.664ef1dd.js.map",
     "787.35dd0f9c.chunk.js.map": "/CODSOFT-level1-task1/static/js/787.35dd0f9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db7c9093.css",
-    "static/js/main.7aad85c4.js"
+    "static/css/main.87b68438.css",
+    "static/js/main.664ef1dd.js"
   ]
 }

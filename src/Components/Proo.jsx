@@ -10,7 +10,7 @@ const YourComponent = () => {
   return (
     <div className="service-card-container">
       {/* First ServiceCard instance */}
-      <a href="https://fluffy-cat-48f736.netlify.app/" target="_blank" rel="noopener noreferrer">
+      <a href="https://ducatigj.netlify.app/" target="_blank" rel="noopener noreferrer">
         <ServiceCard
           imageUrl={bike}
           iconUrl={Duc}

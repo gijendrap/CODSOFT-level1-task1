@@ -6,6 +6,7 @@ import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Prod from './Components/Prod'
+import Proo from './Components/Proo'
 // import Pro from './Components/Pro';
 // import Card from './Components/CardList'
 import 'bootstrap/dist/css/bootstrap.min.css';  
@@ -19,6 +20,7 @@ const App = () => {
       <Projects />
       <About />
       <Prod />
+      <Proo />
       {/* <Pro />
       <Card /> */}
       <Skills />
